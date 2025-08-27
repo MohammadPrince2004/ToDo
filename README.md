@@ -1,16 +1,24 @@
-# todo_app
+# ✅ To-Do App
 
-A new Flutter project.
+**About the App**  
+To-Do App is your perfect companion for organizing daily tasks and achieving goals effortlessly. With a simple and user-friendly interface, you can add tasks, categorize them, and set priorities to stay productive every day.
 
-## Getting Started
+## 📌 Key Features
+- **Quick Task Creation** – Add, edit, and delete tasks easily.
+- **Task Categorization** – Organize your tasks by categories for better management.
+- **Set Priorities & Deadlines** – Never miss an important task again.
+- **Clean and Interactive Design** – Enjoy a smooth and intuitive experience.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🏗 Architecture
+This project follows **MVVM (Model-View-ViewModel)** architecture pattern to ensure:
+- **Clean Code Structure**
+- **Better Maintainability**
+- **Separation of Concerns**
+- **Scalability for future features**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Project Layers:**
+- **Model**: Handles the data and business logic.
+- **View**: UI components (Flutter Widgets).
+- **ViewModel**: Connects the View with the Model using `Provider` for state management.
